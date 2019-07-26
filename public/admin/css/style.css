@@ -1,0 +1,150 @@
+/* Start Main Rules */
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0; }
+
+td {
+  max-width: 160px; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f1dfdf; }
+
+.edit-cont {
+  max-width: 1280px; }
+
+p {
+  margin-bottom: 0; }
+
+.control {
+  margin: 0 auto 30px;
+  display: block;
+  letter-spacing: 1px;
+  padding: 8px 30px; }
+
+/* End Main Rules */
+/* Start Navbar */
+.navbar {
+  background-color: #000;
+  padding: 0; }
+  .navbar .navbar-brand {
+    margin-left: 35px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900; }
+  .navbar .navbar-nav {
+    margin-left: 50px; }
+    .navbar .navbar-nav .active {
+      background-color: #FF0000; }
+    .navbar .navbar-nav .nav-item {
+      padding: 18px 10px;
+      font-size: 14px;
+      border-right: 1px solid #251c1c;
+      transition: all .3s ease-in-out; }
+      .navbar .navbar-nav .nav-item:hover {
+        background-color: #FF0000; }
+      .navbar .navbar-nav .nav-item a {
+        color: #fff; }
+    .navbar .navbar-nav .user {
+      padding: 15px 10px;
+      border-right: 1px solid #251c1c;
+      display: flex;
+      align-items: center; }
+      .navbar .navbar-nav .user img {
+        max-width: 50px;
+        background-color: #fff;
+        padding: 2px;
+        border-radius: 50%; }
+      .navbar .navbar-nav .user .username {
+        color: #fff;
+        margin-left: 10px; }
+
+/* End Navbar */
+/* Start Dashboard */
+.dashboard h1 {
+  margin: 30px 0;
+  font-weight: 900;
+  color: #333; }
+.dashboard .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: #fff;
+  height: 127px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%; }
+.dashboard .icon {
+  height: 127px;
+  width: 127px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 127px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #fff; }
+.dashboard .details {
+  color: #333;
+  padding: 0 20px; }
+  .dashboard .details .count {
+    font-size: 50px; }
+  .dashboard .details .category-name {
+    font-size: 22px; }
+.dashboard .admins-icon {
+  background-color: #FFC11E; }
+.dashboard .business-icon {
+  background-color: #FF7272; }
+.dashboard .card {
+  max-width: 400px; }
+  .dashboard .card .card-header {
+    font-size: 25px;
+    font-weight: 900; }
+  .dashboard .card .card-body {
+    padding: 0; }
+    .dashboard .card .card-body ul li {
+      padding: 10px 15px;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer; }
+      .dashboard .card .card-body ul li a {
+        color: #333; }
+
+/* End Dashboard */
+/* Start Show */
+.show h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+  margin: 30px 0; }
+.show table {
+  margin-bottom: 30px; }
+
+/* End Show */
+/* Start Add */
+.add h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+  margin: 30px 0; }
+.add form {
+  max-width: 700px;
+  margin: 0 auto; }
+
+/* End Add */
+/* Start Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 0;
+  margin-top: 100px; }
+
+/* End Footer */
+
+/*# sourceMappingURL=style.css.map */

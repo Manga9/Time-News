@@ -24,7 +24,7 @@
                     <h1>Time News</h1>
                 </div>
                 <div class='ads'>
-                    <img src="{{ asset('images/banner-2.jpg') }}">
+                    <img src="{{ asset('user/images/banner-2.jpg') }}">
                 </div>
             </div>
         </div>
